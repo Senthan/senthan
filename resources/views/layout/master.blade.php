@@ -22,5 +22,10 @@
 	<script type="text/javascript" src="{{  asset('components/jquery/dist/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 
+	<noscript>
+    <a href="http://www.boldchat.com" title="Visitor Monitoring" target="_blank"><img alt="Visitor Monitoring" src="https://vms.boldchat.com/aid/432858954879854351/bc.vmi?wdid=3125219906087627409&amp;vr=&amp;vn=&amp;vi=&amp;ve=&amp;vp=&amp;curl=" border="0" width="1" height="1" /></a>
+</noscript>
+<!-- /BoldChat Visitor Monitor HTML v5.00 -->
+
 </body>
 </html>

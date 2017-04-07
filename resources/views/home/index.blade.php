@@ -87,7 +87,7 @@
 						<strong>Web Technologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						communications protocols, Bootstrap, Semantic ui, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.io, Ckeditor.js. Fullcalendar.js, jquery, dropzone.js, emojione.js, Sortable.js, clipboard.js, lightgallery.js, lightbox.js, colResizable.js, Chart.js and Moment.js
+						Bootstrap, Semantic ui, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.io, Ckeditor.js. Fullcalendar.js, jquery, dropzone.js, emojione.js, Sortable.js, clipboard.js, lightgallery.js, lightbox.js, colResizable.js, Chart.js and Moment.js
 					</span>
 				</li>
 				<li class="">
@@ -653,9 +653,17 @@
 	</div>	
 	<hr>
 
-	<a id="pdf" href="{{  route('cv.download') }}" title="Download it as a .pdf">
-        <i class="fa fa-download"></i>
-    </a>
+	<div class="dropdown">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	    <i class="fa fa-download"></i>
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu dropdown-download" aria-labelledby="dropdownMenu1">
+	    <li><a href="{{  route('cv.download') }}"> Pdf</a></li>
+	    <li><a href="{{  route('cv.download') }}">Word</a></li>
+	  </ul>
+	</div>
+
 
 	<a id="print" href="javascript:window.print()" title="Print the CV">
         <i class="fa fa-print"></i>

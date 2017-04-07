@@ -66,13 +66,13 @@ ul li {
 	top: 340px;
 }
 
-#pdf {
+#pdf , .dropdown {
 	top: 400px;
 }
 
-#print, #pdf {
+#print, #pdf , .dropdown {
 	position: fixed;
-    right: 30px;
+    left: 30px;
     display: block;
     width: 50px;
     height: 50px;
@@ -87,7 +87,7 @@ ul li {
     z-index: 80;
 }
 
-#print i, #pdf i {
+#print i, .dropdown i {
     color: #fff;
 	font-size: 24px;
 	line-height: 50px;
@@ -95,4 +95,17 @@ ul li {
 	
 a, a:visited {
 	color: #444;
+}
+
+.dropdown button {
+	width: 50px;
+	background-color: #fdb020;
+}
+.dropdown-download {
+	background-color: #fdb020;
+	font-size: 18px;
+    line-height: 10px;
+	color: #444;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
 }
