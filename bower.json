@@ -1,0 +1,22 @@
+{
+  "name": "senthaneng",
+  "description": "",
+  "main": "",
+  "authors": [
+    "S.Senthan <senthaneng@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "^4.*",
+    "jquery": "~2.1.4"
+  }
+}

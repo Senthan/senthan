@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+
+.row {
+	margin-right: 15px;
+	margin-left: 15px;
+     }
+
+a {
+	color: black;
+}
+a:hover {
+	color: black;
+}
+h1 {
+	font-size: 24px;
+    line-height: 30px;
+	color: #444;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 20px;
+    line-height: 28px;
+    color: #b1b1b1;
+}
+p strong {
+	font-size: 16px;
+}
+
+ul li {
+	margin-left: 15px;
+}
+
+.cv-item {
+	border-top: 1px solid #dadada;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.cv-item-heading {
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.period {
+	    float: right;
+	    padding: 12px 20px;
+	    background-color: #b1b1b1;
+	    color: #fff;
+	    -webkit-transition: background-color 0.3s;
+	    -o-transition: background-color 0.3s;
+	    transition: background-color 0.3s;
+		text-transform: uppercase;
+}
+.contact {
+	padding: 5px;
+	background-color: white;
+}
+
+.contact i{
+	font-size: 24px;
+	line-height: 50px;
+}
