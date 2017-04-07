@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
-
 .row {
 	margin-right: 15px;
 	margin-left: 15px;
@@ -53,6 +51,7 @@ ul li {
 	    transition: background-color 0.3s;
 		text-transform: uppercase;
 }
+
 .contact {
 	padding: 5px;
 	background-color: white;
@@ -61,4 +60,39 @@ ul li {
 .contact i{
 	font-size: 24px;
 	line-height: 50px;
+}
+
+#print {
+	top: 340px;
+}
+
+#pdf {
+	top: 400px;
+}
+
+#print, #pdf {
+	position: fixed;
+    right: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fdb020;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    z-index: 80;
+}
+
+#print i, #pdf i {
+    color: #fff;
+	font-size: 24px;
+	line-height: 50px;
+}
+	
+a, a:visited {
+	color: #444;
 }

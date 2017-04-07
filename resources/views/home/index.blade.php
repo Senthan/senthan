@@ -652,4 +652,12 @@
 	     </div>
 	</div>	
 	<hr>
+
+	<a id="pdf" href="{{  route('cv.download') }}" title="Download it as a .pdf">
+        <i class="fa fa-download"></i>
+    </a>
+
+	<a id="print" href="javascript:window.print()" title="Print the CV">
+        <i class="fa fa-print"></i>
+    </a>
 @endsection

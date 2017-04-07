@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::post('/contact', ['as' => 'contact.store', 'uses' => 'ContactController@store']);
+
+
+Route::get('/cv/download', ['as' => 'cv.download', 'uses' => 'ContactController@download']);
