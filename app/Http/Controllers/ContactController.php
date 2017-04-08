@@ -18,7 +18,7 @@ class ContactController extends Controller
 	}
 
 	public function download() {
-		$this->pdf = public_path('storage') . '/senthan.pdf';
+		$this->pdf = public_path('app/storage') . '/senthan.pdf';
 		$this->respond('senthan.pdf');
 	}
 
