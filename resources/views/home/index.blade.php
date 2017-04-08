@@ -5,7 +5,7 @@
 	</div>
 	<div class="row" >
 	    <div class="col-md-8">
-	        <img style="margin-right: 15px;width: 150px;height: 163px;" class="img-thumbnail pull-left" src="http://cv.lh/140x140.png" alt="">
+	        <img style="margin-right: 15px;width: 150px;height: 163px;" class="img-thumbnail pull-left" src="{{  asset('storage/140x140.png') }}" alt="">
 	        <h1 style="padding: : 15px;"> 
 	            <span>Senthan Shanmugaratnam</span><br>
 	            <span><small>Software Engineer</small></span>
