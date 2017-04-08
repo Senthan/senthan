@@ -27,7 +27,7 @@
 </body>
 <footer>
 	<div class="row contact-position">
-        <div class="contact-form" id="contact-form-show">
+        <div class="contact-form" id="contact-form-show" class="form-horizontal">
             <div class="panel panel-warning panel-contact">
                 <div class="panel-heading">
                     <h3>Contact</h3>
