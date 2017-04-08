@@ -185,3 +185,7 @@ a, a:visited {
 .help-block {
 	color: #a94442 !important;
 }
+
+.contact-form {
+	width: 80%;
+}

@@ -54,14 +54,9 @@
 		var contactFormShow = $('#contact-form-show');
 		//contactForm.addClass('hidden');
 		contactShow.click(function() {
-			if(contactForm.hasClass('hidden')) {
-			//	contactForm.removeClass('hidden');
-			} else {
-			//	contactForm.addClass('hidden');
-			}
-			
+			console.log(34);
 			contactFormShow.toggle('slide', 'right', 500);
-			//contactFormShow.find('.panel-contact').focus();
+			
 		});
 		
 
