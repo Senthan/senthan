@@ -40,6 +40,7 @@
                 </div>
                 <div class="panel-footer">
                     <button class="btn btn-sm btn-success" id="send-contact">Send</button>
+                    <button class="btn btn-sm btn-default" id="cancel-contact">Cancel</button>
                 </div>
             </div>
         </div>
@@ -52,9 +53,14 @@
 		var contactShow = $('#contact-show');
 		var contactForm = $('.contact-form');
 		var contactFormShow = $('#contact-form-show');
+		var cancelContact = $('#cancel-contact');
+
+		cancelContact.click(function() {
+			contactFormShow.toggle('slide', 'right', 500);
+		});
+
 		//contactForm.addClass('hidden');
 		contactShow.click(function() {
-			console.log(34);
 			contactFormShow.toggle('slide', 'right', 500);
 			
 		});
