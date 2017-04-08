@@ -172,8 +172,16 @@ a, a:visited {
     margin-right: 15px;
     background: #4ECDC4;
     margin-top: 15px;
+    border-radius: 8.2px;
+	font-size: 18px;
+	font-family: op;
+	border-color: #fff !important;
 }
 
 .panel-contact .panel-footer {
 	background-color: #fdb020;
+}
+
+.help-block {
+	color: #a94442 !important;
 }

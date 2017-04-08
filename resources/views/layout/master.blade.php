@@ -7,6 +7,7 @@
     <title>Senthan Software Engineer</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('components/font-awesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('components/bootstrap/dist/css/bootstrap.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('components/toastr/toastr.min.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 </head>
 <body style="background: #222 url(../images/bg-body.png)">
@@ -22,27 +23,25 @@
 	<script type="text/javascript" src="{{  asset('components/jquery/dist/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/jquery-ui/jquery-ui.min.js') }}"></script>
-
+	<script type="text/javascript" src="{{  asset('components/toastr/toastr.min.js') }}"></script>
 </body>
 <footer>
 	<div class="row contact-position">
-
         <div class="contact-form" id="contact-form-show">
-            {!! Form::open(['url' => route('contact.store'), 'role' => 'form', 'class' => 'form-horizontal']) !!}
-
             <div class="panel panel-warning panel-contact">
                 <div class="panel-heading">
                     <h3>Contact</h3>
                 </div>
                 <div class="panel-body">
-                    @include('home.form')
+                	<form>
+                		@include('home.form')
+						<input type="hidden" name="_token" value="{!! csrf_token() !!}">
+					</form>
                 </div>
                 <div class="panel-footer">
                     <button class="btn btn-sm btn-success" id="send-contact">Send</button>
                 </div>
             </div>
-
-            {!! Form::close() !!}   
         </div>
     </div>
 </footer>
@@ -70,17 +69,30 @@
 
 			$.ajax({
 		        url: '{!! route('contact.store') !!}',
-		        data: { _token: '{!! csrf_token() !!}'},
+		        data:  $('form').serialize(),
 		        dataType: "JSON",
 		        method: "POST",
 		        success: function (responce) {
-		            if(responce.data) {
+		            if(responce) {
 		            	toastr.options = {
 		                    "positionClass": "toast-bottom-left"
 		                };
-		                toastr.success('Successfully sent it.')
+
+		                toastr.success("Thanks for taking a look at my profile")
+		                contactFormShow.toggle('slide', 'right', 500);
 		            }
+		        },
+
+		        error: function(responce) {
+		        	toastr.options = {
+		                "positionClass": "toast-bottom-left"
+		                };
+		                responce = JSON.parse(responce.responseText);
+		                var email = responce.email ? responce.email[0] : '' ;
+		                var message = responce.message ? responce.message[0] : ''
+		            toastr.error(email.concat(' ', message))
 		        }
+
 		    });
 
 		});
