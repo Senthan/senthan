@@ -29,7 +29,8 @@
 	<div class="row contact-position">
         <div class="contact-form" id="contact-form-show" class="form-horizontal">
             <div class="panel panel-warning panel-contact">
-                <div class="panel-heading">
+       			<div class="show-panel-heading"></div>
+                <div class="panel-heading hide-panel-heading">
                     <h3>Contact</h3>
                 </div>
                 <div class="panel-body">
@@ -49,6 +50,11 @@
 <script type="text/javascript">
 	
 	$(document).ready(function () {
+
+		if(screen.height < 626) {
+			$('.show-panel-heading').html('<h3>Contact</h3>');
+			$('.hide-panel-heading').addClass('hidden');
+		}
 		var sendContact = $('#send-contact');
 		var contactShow = $('#contact-show');
 		var contactForm = $('.contact-form');
