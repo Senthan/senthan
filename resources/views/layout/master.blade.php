@@ -39,7 +39,7 @@
 						<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					</form>
                 </div>
-                <div class="panel-footer">
+                <div class="panel-footer hide-panel-footer">
                     <button class="btn btn-sm btn-success" id="send-contact">Send</button>
                     <button class="btn btn-sm btn-default" id="cancel-contact">Cancel</button>
                 </div>
@@ -52,7 +52,11 @@
 	$(document).ready(function () {
 
 		if(screen.height < 626) {
+			$('.show-panel-heading').html(
+				'<div class="panel-footer"><button class="btn btn-sm btn-default" id="cancel-contact">Cancel</button><button class="btn btn-sm btn-success pull-right" id="send-contact">Send</button></div>'
+			);
 			$('.hide-panel-heading').addClass('hidden');
+			$('.hide-panel-footer').addClass('hidden');
 		}
 		var sendContact = $('#send-contact');
 		var contactShow = $('#contact-show');
