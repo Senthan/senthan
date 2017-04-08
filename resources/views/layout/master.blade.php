@@ -53,7 +53,7 @@
 
 		if(screen.height < 626) {
 			$('.show-panel-heading').html(
-				'<div class="panel-footer"><button class="btn btn-sm btn-default" id="cancel-contact">Cancel</button><button class="btn btn-sm btn-success pull-right" id="send-contact">Send</button></div>'
+				'<div class="panel-footer"><button class="btn btn-sm btn-default" id="cancel-contact">Cancel</button><button class="btn btn-sm btn-success" id="send-contact">Send</button></div>'
 			);
 			$('.hide-panel-heading').addClass('hidden');
 			$('.hide-panel-footer').addClass('hidden');
