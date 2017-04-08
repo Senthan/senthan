@@ -17,6 +17,8 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "font-awesome": "^4.*",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "jquery-ui": "^1.12.1",
+    "toastr": "^2.1.3"
   }
 }

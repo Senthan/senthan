@@ -668,4 +668,10 @@
 	<a id="print" href="javascript:window.print()" title="Print the CV">
         <i class="fa fa-print"></i>
     </a>
+
+    <a  class="contact" id="contact-show">
+        <i class="fa fa-envelope"></i>
+    </a>
+
+
 @endsection

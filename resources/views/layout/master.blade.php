@@ -13,7 +13,7 @@
 
 
 	<div style="margin: 50px">
-		<div class="container" style="max-width: 1060px; background-color: #fff;">
+		<div class="container container-width" style="background-color: #fff;">
 			@yield('content')
 		</div>
 	</div>
@@ -21,11 +21,70 @@
 
 	<script type="text/javascript" src="{{  asset('components/jquery/dist/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-
-	<noscript>
-    <a href="http://www.boldchat.com" title="Visitor Monitoring" target="_blank"><img alt="Visitor Monitoring" src="https://vms.boldchat.com/aid/432858954879854351/bc.vmi?wdid=3125219906087627409&amp;vr=&amp;vn=&amp;vi=&amp;ve=&amp;vp=&amp;curl=" border="0" width="1" height="1" /></a>
-</noscript>
-<!-- /BoldChat Visitor Monitor HTML v5.00 -->
+	<script type="text/javascript" src="{{  asset('components/jquery-ui/jquery-ui.min.js') }}"></script>
 
 </body>
+<footer>
+	<div class="row contact-position">
+
+        <div class="contact-form" id="contact-form-show">
+            {!! Form::open(['url' => route('contact.store'), 'role' => 'form', 'class' => 'form-horizontal']) !!}
+
+            <div class="panel panel-warning panel-contact">
+                <div class="panel-heading">
+                    <h3>Contact</h3>
+                </div>
+                <div class="panel-body">
+                    @include('home.form')
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-sm btn-success" id="send-contact">Send</button>
+                </div>
+            </div>
+
+            {!! Form::close() !!}   
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+	
+	$(document).ready(function () {
+		var sendContact = $('#send-contact');
+		var contactShow = $('#contact-show');
+		var contactForm = $('.contact-form');
+		var contactFormShow = $('#contact-form-show');
+		//contactForm.addClass('hidden');
+		contactShow.click(function() {
+			if(contactForm.hasClass('hidden')) {
+			//	contactForm.removeClass('hidden');
+			} else {
+			//	contactForm.addClass('hidden');
+			}
+			
+			contactFormShow.toggle('slide', 'right', 500);
+			//contactFormShow.find('.panel-contact').focus();
+		});
+		
+
+		sendContact.click(function() {
+
+			$.ajax({
+		        url: '{!! route('contact.store') !!}',
+		        data: { _token: '{!! csrf_token() !!}'},
+		        dataType: "JSON",
+		        method: "POST",
+		        success: function (responce) {
+		            if(responce.data) {
+		            	toastr.options = {
+		                    "positionClass": "toast-bottom-left"
+		                };
+		                toastr.success('Successfully sent it.')
+		            }
+		        }
+		    });
+
+		});
+
+	});
+</script>
 </html>
