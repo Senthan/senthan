@@ -110,14 +110,8 @@ a, a:visited {
 }
 
 .container-width {
-	max-width: 1060px; 
+	width: 97%;
 }
-
-/*@media(min-width: 800px && max-width: 980px) {
-	.container-width {
-	max-width: 900px; 
-}
-}*/
 
 #contact-form-show {
     color:Green;
@@ -182,6 +176,9 @@ a, a:visited {
 	background-color: #fdb020;
 }
 
+.panel-contact {
+    margin-bottom: 0px;
+}
 .help-block {
 	color: #a94442 !important;
 }
