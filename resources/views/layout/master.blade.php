@@ -52,7 +52,6 @@
 	$(document).ready(function () {
 
 		if(screen.height < 626) {
-			$('.show-panel-heading').html('<h3>Contact</h3>');
 			$('.hide-panel-heading').addClass('hidden');
 		}
 		var sendContact = $('#send-contact');
