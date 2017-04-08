@@ -33,7 +33,7 @@
                     <h3>Contact</h3>
                 </div>
                 <div class="panel-body">
-                	<form>
+                	<form id="contactform">
                 		@include('home.form')
 						<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					</form>
@@ -80,6 +80,10 @@
 
 		                toastr.success("Thanks for taking a look at my profile")
 		                contactFormShow.toggle('slide', 'right', 500);
+
+		                $( '#contactform' ).each(function(){
+    						this.reset();
+						});
 		            }
 		        },
 
