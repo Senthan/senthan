@@ -210,27 +210,27 @@
 					Involved in Design, Research and Development of technology stack with collaboration of architect
 				</li>
 				<li class="list-group-item-heading">
-					Involved in agile scrum development, Test Driven Development, Behaviour-Driven Development and
+					Involved in Agile Scrum Development, Test Driven Development, Behaviour-Driven Development and
 					Code Reviews
 				</li>
 				<li class="list-group-item-heading">
 					Involved in fast paced scrum team which has release every 2 sprints
 				</li>
 				<li class="list-group-item-heading">
-					Wrote Migrations,, Relationships, Mutators, Models stored procedures and modifications to existing database
+					Wrote Migrations, Relationships, Mutators, Models stored procedures and modifications to existing database
 	                structure using Laravel Eloquent ORM
 				</li>
 				<li class="list-group-item-heading">
-					Analyze the middleware, Authentication and Authorization on Laravel
+					Analyze the middleware, authentication and authorization on laravel
 				</li>
 				<li class="list-group-item-heading">
-					Involved R&D to develop WildCard DNS and multi-tenant database architecture
+					Involved R&D to develop wildcard DNS and multi-tenant database architecture
 				</li>
 				<li class="list-group-item-heading">
-					Worked in multiple cutting edge functions development. Such as search and pagination feature, dashboard Real Time Notification functionality, dashboard update scheduler, Audit functionality, Workflow functionality, KPI Module, Event Module, Recruitment Module, Marketing campaign module, Chat module,Page Speed module using google PageSpeed Insights API in the DD system, image management, slider management, map management, content management and form management for existing website in the CMS system and SNMP Trap Management, Grap Management using cacti, Request Management using SOAP, VSAT Management and Real time VSAT status Update in the SkyVNO system
+					Worked in multiple cutting edge functions development. Such as search and pagination feature, dashboard real time notification functionality, dashboard update scheduler, audit functionality, workflow functionality, KPI Mmodule, event module, recruitment module, marketing campaign module, chat module, page speed module using google PageSpeed Insights API in the DD system, image management, slider management, map management, content management and form management for existing website in the CMS system and SNMP trap management, grap management using cacti, request management (reset vsat, block vsat, allotDeleteHostCatalogEntries, etc) and response management (getVsatsfromNMS, allotGetAllNeDevice, etc) using SOAP, VSAT Management and Real time VSAT status update in the skyVNO system
 				</li>
 				<li class="list-group-item-heading">
-					Involved in workflow functionality implementation, Such as leave, Expense claim, and Interview managements with workflow on team organization develop and R&D on symfony workflow integration on laravel
+					Involved in workflow functionality implementation, Such as leave, expense claim and interview managements with workflow on team organization develop and R&D on symfony workflow integration on laravel
 				</li>
 				<li class="list-group-item-heading">
 					Developed and Supported Deliver Daily, Vaultpro.Business, SkyVNO, jEyLaBs CMS Systems with the new features
