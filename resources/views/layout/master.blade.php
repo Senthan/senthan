@@ -27,14 +27,14 @@
 </body>
 <footer>
 	<div class="row contact-position">
-        <div class="contact-form" id="contact-form-show" class="form-horizontal">
+        <div class="contact-form" id="contact-form-show">
             <div class="panel panel-warning panel-contact">
        			<div class="show-panel-heading"></div>
                 <div class="panel-heading hide-panel-heading">
                     <h3>Contact</h3>
                 </div>
                 <div class="panel-body">
-                	<form id="contactform">
+                	<form id="contactform" class="form-horizontal">
                 		@include('home.form')
 						<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					</form>
