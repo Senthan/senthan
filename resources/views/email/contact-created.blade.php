@@ -33,22 +33,22 @@
                     </tr>
                     <tr>
                         <td>
-                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Name:- {{ $contact->name }}</p>
+                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Name:- {{ $contact->name  or ''  }}</p>
                         </td>
                     </tr>
                   <tr>
                         <td>
-                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Email:- {{ $contact->email }}</p>
+                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Email:- {{ $contact->email  or ''  }}</p>
                         </td>
                     </tr>
 		  <tr>
                         <td>
-                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Subject:- {{ $contact->subject }}</p>
+                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Subject:- {{ $contact->subject  or '' }}</p>
                         </td>
                     </tr>
 <tr>
                         <td>
-                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Message:- {{ $contact->message }}</p>
+                            <p style="font-size: 16px; margin-top: 10px; padding-right: 20px;">Viewer Message:- {{ $contact->message or '' }}</p>
                         </td>
                     </tr>
                 </table>
