@@ -18,8 +18,16 @@ class ContactController extends Controller
 	}
 
 	public function download() {
-		$this->pdf = public_path('app/storage') . '/senthan.pdf';
-		$this->respond('senthan.pdf');
+		$fileType = request()->input('file_type');
+		if($fileType && $fileType == 'docx') {
+			$this->pdf = public_path('app/storage') . '/senthan_cv.docx';
+			$this->respond('senthan_cv.docx', 'docx');
+		} else {
+
+			$this->pdf = public_path('app/storage') . '/senthan_cv.pdf';
+			$this->respond('senthan_cv.pdf');
+
+		}
 	}
 
 	protected function phantomProcess($path)

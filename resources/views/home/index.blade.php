@@ -661,7 +661,7 @@
 	  </button>
 	  <ul class="dropdown-menu dropdown-download" aria-labelledby="dropdownMenu1">
 	    <li><a href="{{  route('cv.download') }}"> Pdf</a></li>
-	    <li><a href="{{  route('cv.download') }}">Word</a></li>
+	    <li><a href="{{  route('cv.download', ['file_type' => 'docx']) }}">Word</a></li>
 	  </ul>
 	</div>
 
