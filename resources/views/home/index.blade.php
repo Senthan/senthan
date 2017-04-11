@@ -13,10 +13,10 @@
 	    </div>
 	    <div class="col-md-4 clearfix">
 	        <p class="last">
-	             <span class="hidden-tablet"><strong>Address: </strong> BLK 338, #03-330, BUKIT BATOK ST 34, SINGAPORE 650338.</span>
+	             <span class="hidden-tablet"><strong>Address: </strong> BLK 439, #20-1321, ANG MO KIO AVENUE 10, SINGAPORE 560439.</span>
 	            <br><span class="hidden-tablet"><strong>Email: </strong> <a href="mailto:senthaneng@gmail.com">senthaneng@gmail.com</a></span>
-	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://54.69.193.64">senthaneng.com</a></span>
-	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 9467 4031.</span>
+	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://senthaneng.com">http://senthaneng.com</a></span>
+	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 8385 8656.</span>
 	             <br><span class="hidden-tablet"><strong>Expected Salary: </strong>Negotiable.</span>
 	             <br><span class="hidden-tablet"><strong>Availability: </strong>Immediately.</span>
 	        </p>
