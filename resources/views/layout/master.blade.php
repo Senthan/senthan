@@ -24,14 +24,22 @@
 	<script type="text/javascript" src="{{  asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/jquery-ui/jquery-ui.min.js') }}"></script>
 	<script type="text/javascript" src="{{  asset('components/toastr/toastr.min.js') }}"></script>
+
+
+
 </body>
 <footer>
 	<div class="row contact-position">
+
         <div class="contact-form" id="contact-form-show">
             <div class="panel panel-warning panel-contact">
+
        			<div class="show-panel-heading"></div>
                 <div class="panel-heading hide-panel-heading">
-                    <h3>Contact</h3>
+                    <h3 >
+                    <span class="fa fa-refresh fa-spin fa-x fa-fw" id="loading"></span>
+                    <span>Contact</span>
+                    </h3>
                 </div>
                 <div class="panel-body">
                 	<form id="contactform" class="form-horizontal">
@@ -58,11 +66,14 @@
 			$('.hide-panel-heading').addClass('hidden');
 			$('.hide-panel-footer').addClass('hidden');
 		}
+		var loading = $('#loading');
 		var sendContact = $('#send-contact');
 		var contactShow = $('#contact-show');
 		var contactForm = $('.contact-form');
 		var contactFormShow = $('#contact-form-show');
 		var cancelContact = $('#cancel-contact');
+
+		loading.addClass('hidden');
 
 		cancelContact.click(function() {
 			contactFormShow.toggle('slide', 'right', 500);
@@ -76,13 +87,14 @@
 		
 
 		sendContact.click(function() {
-
+			loading.removeClass('hidden');
 			$.ajax({
 		        url: '{!! route('contact.store') !!}',
 		        data:  $('form').serialize(),
 		        dataType: "JSON",
 		        method: "POST",
 		        success: function (responce) {
+		        	loading.addClass('hidden');
 		            if(responce) {
 		            	toastr.options = {
 		                    "positionClass": "toast-bottom-left"
@@ -98,10 +110,11 @@
 		        },
 
 		        error: function(responce) {
+		        	loading.addClass('hidden');
 		        	toastr.options = {
 		                "positionClass": "toast-bottom-left"
 		                };
-		                
+
 		                if(responce && responce.responseText) {
 							responce = JSON.parse(responce.responseText);
 		                	var email = responce.email ? responce.email[0] : '' ;
