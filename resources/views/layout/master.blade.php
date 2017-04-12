@@ -101,10 +101,14 @@
 		        	toastr.options = {
 		                "positionClass": "toast-bottom-left"
 		                };
-		                responce = JSON.parse(responce.responseText);
-		                var email = responce.email ? responce.email[0] : '' ;
-		                var message = responce.message ? responce.message[0] : ''
-		            toastr.error(email.concat(' ', message))
+		                
+		                if(responce && responce.responseText) {
+							responce = JSON.parse(responce.responseText);
+		                	var email = responce.email ? responce.email[0] : '' ;
+		                	var message = responce.message ? responce.message[0] : ''
+		            		toastr.error(email.concat(' ', message));
+		                }
+		                
 		        }
 
 		    });

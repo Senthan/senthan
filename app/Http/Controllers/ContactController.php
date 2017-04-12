@@ -14,7 +14,7 @@ class ContactController extends Controller
 	public function store(ContactStoreRequest $request) {
 		Contact::create($request->only(['name', 'email', 'subject', 'message']));
 
-		return response()->json(true);
+		return response()->json(1);
 	}
 
 	public function download() {
