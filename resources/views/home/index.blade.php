@@ -88,7 +88,7 @@
 						<strong>Web Technologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						Bootstrap, Semantic ui, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.io, Ckeditor.js. Fullcalendar.js, jquery, dropzone.js, emojione.js, Sortable.js, clipboard.js, lightgallery.js, lightbox.js, colResizable.js, Chart.js and Moment.js
+						Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js and Moment.js
 					</span>
 				</li>
 				<li class="">
@@ -227,7 +227,7 @@
 					Involved R&D to develop wildcard DNS and multi-tenant database architecture
 				</li>
 				<li class="list-group-item-heading">
-					Worked in multiple cutting edge functions development. Such as search and pagination feature, dashboard real time notification functionality, dashboard update scheduler, audit functionality, workflow functionality, KPI module, event module, recruitment module, marketing campaign module, chat module, page speed module using google PageSpeed Insights API in the DD system, image management, slider management, map management, content management and form management for existing website in the CMS system and SNMP trap management, network monitoring and graphing management management using cacti, request management (reset vsat, block vsat, allotDeleteHostCatalogEntries, etc) and response management (getVsatsfromNMS, allotGetAllNetworkDevice, etc) using SOAP, VSAT Management and Real time VSAT status update in the skyVNO system
+					Worked in multiple cutting edge functions development. Such as search and pagination feature, dashboard real time notification functionality, dashboard update scheduler, audit functionality, workflow functionality, KPI module, event module, recruitment module, marketing campaign module, chat module, page speed module using google PageSpeed Insights API in the DD system, image management, slider management, map management, content management and form management for existing website in the CMS system and SNMP trap management, network monitoring and graphing management using cacti, request management (reset vsat, block vsat, allotDeleteHostCatalogEntries, etc) and response management (getVsatsfromNMS, allotGetAllNetworkDevice, etc) using SOAP, VSAT Management and Real time VSAT status update in the skyVNO system
 				</li>
 				<li class="list-group-item-heading">
 					Involved in workflow functionality implementation. Such as leave, expense claim and interview managements with workflow on team organization develop and R&D on symfony workflow integration on laravel
