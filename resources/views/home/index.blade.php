@@ -144,7 +144,7 @@
 						<strong>Testing:</strong>
 					</span>
 					<span class="list-group-item-text">
-						PHPUnit and Selenium
+						PHPUnit, Selenium and Mocha
 					</span>
 				</li>
 				<li class="">
@@ -266,7 +266,7 @@
 			</h4>
 			<p>
 				Vaultpro.Business is a multitenant application as a service (SaaS) database application that run a cloud environment. It is
-				a prototype to facilitate software delivery and license.
+				a prototype to facilitate software delivery and licence
 			</p>
 			<ul class="list-group">
 				<li>
@@ -383,7 +383,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						PHP, WebRTC , Laravel, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, MySQL, Node.js, and Socket.io
+						Node.js, Socket.io, WebRTC, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, MySQL, Laravel(PHP) and Meteor.js
 					</span>
 				</li>
 			</ul>
