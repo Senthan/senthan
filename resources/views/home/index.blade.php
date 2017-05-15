@@ -257,7 +257,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						Laravel, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, Amazon Aurora, Semantic UI, Node.js, PHPUnit, Selenium and Socket.io
+						PHP(Laravel), Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, Amazon Aurora, Semantic UI, Node.js, PHPUnit, Selenium, Socket.io and CGI Script(Bash) 
 					</span>
 				</li>
 			</ul>
@@ -274,7 +274,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester, Requirement Analyzer and Scrum Master, Customer Support and Production Maintenance
+						Developer, Designer, and Tester, Requirement Analyzer, Customer Support and Production Maintenance
 					</span>
 				</li>
 				<li>
@@ -282,7 +282,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						Laravel, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, MySQL, Semantic UI, Node.js, PHPUnit, Selenium and Socket.io
+						Node.js, Bootstrap, HTML, Javascript, Ajax, Meteor.js, Angular.js, MySQL, Semantic UI, Mocha, Selenium and CGI Script(Bash) 
 					</span>
 				</li>
 			</ul>
