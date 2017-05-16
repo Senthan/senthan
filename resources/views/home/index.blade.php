@@ -51,7 +51,7 @@
 				</li>
 				<li class="list-group-item-heading">
 					Experience in working with Model View Controller (MVC) architecture based web developments using
-	                Laravel MVC.
+	                Laravel MVC and JavaScript Frameworks.
 				</li>
 				<li class="list-group-item-heading">
 					Proficient in working with Eloquent ORM Laravel and Composer and Application Servers such as Nginx, Apache and HTTP server in Node.js.
@@ -88,7 +88,7 @@
 						<strong>Web Technologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js and Moment.js
+						Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js, Moment.js and Meteor.js
 					</span>
 				</li>
 				<li class="">
