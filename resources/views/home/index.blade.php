@@ -358,7 +358,7 @@
 				Developed the activities and closely worked with design team to come up with a UI design
 				</li>
 				<li class="list-group-item-heading">
-				Developed the video chat, message management using webrtc node.js, websocket and socket.io
+				Developed the video stream management using webrtc and node.js
 				</li>
 			</ul>
 
