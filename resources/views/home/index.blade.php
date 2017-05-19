@@ -13,7 +13,7 @@
 	    </div>
 	    <div class="col-md-4 clearfix">
 	        <p class="last">
-	             <span class="hidden-tablet"><strong>Address: </strong> BLK 439, #20-1321, ANG MO KIO AVENUE 10, SINGAPORE 560439.</span>
+	             <span class="hidden-tablet"><strong>Address: </strong> Blk 202, #12-85, Yishun Street 21, Singapore 760202.</span>
 	            <br><span class="hidden-tablet"><strong>Email: </strong> <a href="mailto:senthaneng@gmail.com">senthaneng@gmail.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://senthaneng.com">http://senthaneng.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 8385 8656.</span>
@@ -364,7 +364,7 @@
 
 			<h4 class="cv-item">PDMS</h4>
 			<p>
-				Aim of this project was to managing patients history and diagnosis on Routine Surgery, and notify the alert to doctors.
+				Aim of this project was to managing patients history and diagnosis on Routine Surgery, notify the alert to doctors and online medical consultation with doctor.
 				The Patient Data Management System (PDMS) is a comprehensive software system in which all the data of patients can
 				be integrated. The system is primarily intended for use in complex Care- Intensive / High Care point or Medium Care
 				patients.
@@ -383,7 +383,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						Node.js, Socket.io, WebRTC, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, MySQL, Laravel(PHP) and Meteor.js
+						Node.js, WebRTC, Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, MySQL and Mocha
 					</span>
 				</li>
 			</ul>
