@@ -176,7 +176,7 @@
 						<strong>Methodologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						UML, OOP, OOAD, DDD, Functional Programming, Image Processing, Socket Programming, Parallel programming (Multithreading), Waterfall and Agile Scrum Methodology
+						UML, OOP, OOAD, Functional Programming, Image Processing, Socket Programming, Parallel programming (Multithreading), Waterfall and Agile Scrum Methodology
 					</span>
 				</li>
 				<li class="">
@@ -249,7 +249,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester, Requirement Analyzer, Customer Support and Production Maintenance
+						Developer, Customer Support and Production Maintenance
 					</span>
 				</li>
 				<li>
@@ -257,7 +257,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						PHP(Laravel), Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, Amazon Aurora, Semantic UI, Node.js, PHPUnit, Selenium, Socket.io and CGI Script(Bash) 
+						PHP(Laravel), Redis, Bootstrap, HTML, Javascript, Ajax, Angular.js, Amazon Aurora, Semantic UI, Node.js, PHPUnit, Selenium, Socket.io and Bash
 					</span>
 				</li>
 			</ul>
@@ -274,7 +274,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, and Tester, Requirement Analyzer, Customer Support and Production Maintenance
+						Developer, Customer Support and Production Maintenance
 					</span>
 				</li>
 				<li>
@@ -298,7 +298,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester, Requirement Analyzer and Scrum Master, Customer Support and Production Maintenance
+						Developer, Tester, Customer Support and Production Maintenance
 					</span>
 				</li>
 				<li>
@@ -322,7 +322,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester, Requirement Analyzer and Scrum Master, Customer Support and Production Maintenance
+						Developer, Tester, Requirement Analyzer, Customer Support and Production Maintenance
 					</span>
 				</li>
 				<li>
@@ -375,7 +375,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester
+						Developer, Designer and Tester
 					</span>
 				</li>
 				<li>
@@ -403,7 +403,7 @@
 						Role Played:
 					</span>
 					<span class="list-group-item-text">
-						Developer, Designer, Tester, Requirement Analyzer and Scrum Master
+						Developer, Tester
 					</span>
 				</li>
 				<li>
@@ -411,7 +411,7 @@
 						Skills Used:
 					</span>
 					<span class="list-group-item-text">
-						Ionic, Angular JS, HTML, CSS, Cordova, ngCordova, Node JS, Android SDK, iOS SDK
+						Ionic, Angular.js, HTML, CSS, Cordova, ngCordova, Node.js, Android SDK and iOS SDK
 					</span>
 				</li>
 			</ul>
@@ -480,7 +480,7 @@
 	    					Role Played:
 	    				</span>
 	    				<span class="list-group-item-text">
-							Analyzer, Architect, Designer, Developer, and Tester
+							Analyzer, Architect, Designer, Developer and Tester
 	    				</span>
 	    			</li>
 	    			<li>
@@ -506,7 +506,7 @@
 	    					Role Played:
 	    				</span>
 	    				<span class="list-group-item-text">
-							Analyzer, Architect, Designer, Developer, and Tester
+							Analyzer, Architect, Designer, Developer and Tester
 	    				</span>
 	    			</li>
 	    			<li>
@@ -532,7 +532,7 @@
 	    					Role Played:
 	    				</span>
 	    				<span class="list-group-item-text">
-							Idea, Analyzer, Architect, Designer, Developer, and Tester
+							Idea, Analyzer, Architect, Designer, Developer and Tester
 	    				</span>
 	    			</li>
 	    			<li>
