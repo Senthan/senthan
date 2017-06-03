@@ -201,7 +201,7 @@
 			<p><strong>Responsibilities:</strong></p>
 			<ul class="list-group">
 				<li class="list-group-item-heading">
-					Played a Lead role in Ceymplon Web R&D Team
+					Played a Senior Developer role in Ceymplon Web R&D Team
 				</li>
 				<li class="list-group-item-heading">
 					Involved in the preparation of prototype, demos of the project and scrum estimation
