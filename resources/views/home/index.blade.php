@@ -16,7 +16,7 @@
 	             <span class="hidden-tablet"><strong>Address: </strong> Blk 202, #12-85, Yishun Street 21, Singapore 760202.</span>
 	            <br><span class="hidden-tablet"><strong>Email: </strong> <a href="mailto:senthaneng@gmail.com">senthaneng@gmail.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://senthaneng.com">http://senthaneng.com</a></span>
-	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 8385 8656.</span>
+	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 9144 1981.</span>
 	             <br><span class="hidden-tablet"><strong>Expected Salary: </strong>Negotiable.</span>
 	             <br><span class="hidden-tablet"><strong>Availability: </strong>Immediately.</span>
 	        </p>
