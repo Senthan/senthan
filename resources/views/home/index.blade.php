@@ -50,6 +50,12 @@
 	                Web application and Mobile application using latest Technologies
 				</li>
 				<li class="list-group-item-heading">
+					Experience in working with Node.js with TypeScript (Client Server Architecture)
+				</li>
+				<li class="list-group-item-heading">
+					Experience in working with AngularJs
+				</li>
+				<li class="list-group-item-heading">
 					Experience in working with Model View Controller (MVC) architecture based web developments using
 	                Laravel MVC and JavaScript Frameworks.
 				</li>
@@ -88,7 +94,7 @@
 						<strong>Web Technologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js, Moment.js and Meteor.js
+						Bull queue(redis), Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js, Moment.js and Meteor.js
 					</span>
 				</li>
 				<li class="">
@@ -152,7 +158,7 @@
 						<strong>IDE:</strong>
 					</span>
 					<span class="list-group-item-text">
-						PhpStorm, Eclipse, Sublime, RStudio and Android Studio.
+						VVisual studio code, PhpStorm, Eclipse, Sublime, RStudio and Android Studio.
 					</span>
 				</li>
 				<li class="">
@@ -196,6 +202,105 @@
 			<h3>INDUSTRIAL EXPERIENCE</h3>
 		</div>
 		<div class="col-md-9">
+	 		<p class="period">JUNE 2017</p>
+			<h4>Software Engineer, Collectius (CMS) pte Ltd</h4>
+			<p><strong>Responsibilities:</strong></p>
+			<ul class="list-group">
+				<li class="list-group-item-heading">
+					Played a Team Leader role in Collectius (CMS) Web R&D Team
+				</li>
+				<li class="list-group-item-heading">
+					Involved in Design, Research and Development of technology stack with collaboration of architecT
+				</li>
+				<li class="list-group-item-heading">
+					Involved in Agile Scrum Development
+				</li>
+				<li class="list-group-item-heading">
+					Involved R&D to develop and integrate Automate Dialer System (Vicidial) with CRM
+				</li>
+				<li class="list-group-item-heading">
+					Developed and Support Icollect web Application and Icollect Site Visit Mobile App with new features
+				</li>
+			</ul>
+			<h4 class="cv-item">Icollect V2</h4>
+
+			<p>			
+				Aim of project is collecting debts and managing its data.
+				To make deb collection business more effective and profitable by providing the features such as
+				importing deb cases into system, dialing the debtor, creating PTP(Promise to Pay), keeping payment records and report managements, Predictive dialer, Click2Dial, SMS/Email Integration
+			</p>
+			<ul class="list-group">
+				<li>
+					<span class="list-group-item-heading">
+						Role Played:
+					</span>
+					<span class="list-group-item-text">
+						Developer, Customer Support and Production Maintenance
+					</span>
+				</li>
+				<li>
+					<span class="list-group-item-heading">
+						Skills Used:
+					</span>
+					<span class="list-group-item-text">
+						Vicidial, Angular, Node.js, Elasticsearch, Redis, Logstash, Socket.io, Postgresql, pm2, bull queue
+					</span>
+				</li>
+			</ul>
+
+						
+			<h4 class="cv-item">Icollect SiteVisit Mobile App</h4>
+
+			<p>			
+				AAim of project is updating debtor remark to Domain Management System
+Features :- Adding Remark and Contact Uploading images and audio recording to Domain Management System
+
+			</p>
+			<ul class="list-group">
+				<li>
+					<span class="list-group-item-heading">
+						Role Played:
+					</span>
+					<span class="list-group-item-text">
+						Developer, Customer Support and Production Maintenance
+					</span>
+				</li>
+				<li>
+					<span class="list-group-item-heading">
+						Skills Used:
+					</span>
+					<span class="list-group-item-text">
+						Ionic
+					</span>
+				</li>
+			</ul>
+
+			<h4 class="cv-item">Icollect V1</h4>
+
+			<p>			
+				Aim of project is collecting debts and managing its data.
+				To make deb collection business more effective and profitable by providing the features such as
+				importing deb cases into system, dialing the debtor, creating PTP(Promise to Pay), keeping payment records and report managements, Predictive dialer, Click2Dial, SMS/Email Integration
+			</p>
+			<ul class="list-group">
+				<li>
+					<span class="list-group-item-heading">
+						Role Played:
+					</span>
+					<span class="list-group-item-text">
+						Developer, Customer Support and Production Maintenance
+					</span>
+				</li>
+				<li>
+					<span class="list-group-item-heading">
+						Skills Used:
+					</span>
+					<span class="list-group-item-text">
+						Vicidial, PHP(Laravel), Redis, Bootstrap, HTML, Javascript , Ajax, Angular.js, Semantic UI, Node.js, Socket.io, MySQL, Supervisor
+					</span>
+				</li>
+			</ul> 
+
 			<p class="period">February 2015 – April 2017</p>
 			<h4>Software Engineer, jEyLaBs (Ceymplon) Pty Ltd</h4>
 			<p><strong>Responsibilities:</strong></p>
