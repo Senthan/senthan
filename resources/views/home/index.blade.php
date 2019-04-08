@@ -227,7 +227,7 @@
 			<p>			
 				Aim of project is collecting debts and managing its data.
 				To make deb collection business more effective and profitable by providing the features such as
-				importing deb cases into system, dialing the debtor, creating PTP(Promise to Pay), keeping payment records and report managements, Predictive dialer, Click2Dial, SMS/Email Integration
+				importing deb cases into system, dialing the debtor, creating PTP(Promise to Pay), keeping payment records and report managements, Predictive dialer, Click2Dial, SMS(dinstar gsm gateway)/Email Integration
 			</p>
 			<ul class="list-group">
 				<li>
