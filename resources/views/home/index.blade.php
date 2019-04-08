@@ -13,7 +13,7 @@
 	    </div>
 	    <div class="col-md-4 clearfix">
 	        <p class="last">
-	             <span class="hidden-tablet"><strong>Address: </strong> Blk 202, #12-85, Yishun Street 21, Singapore 760202.</span>
+	             <span class="hidden-tablet"><strong>Address: </strong> 123 BT Batok ctrl, #2-431, Singapore 650123.</span>
 	            <br><span class="hidden-tablet"><strong>Email: </strong> <a href="mailto:senthaneng@gmail.com">senthaneng@gmail.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://senthaneng.com">http://senthaneng.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 9144 1981.</span>
@@ -45,31 +45,31 @@
 				<li class="list-group-item-heading">
 				BSc Honors in Computer Engineering at University of Peradeniya, Sri Lanka.
 				</li>
-				<li class="list-group-item-heading">
-					Having four years of extensive experience in architecture, design and development of developing
-	                Web application and Mobile application using latest Technologies
+				<li class="list-group-item-heading"> Domain Knowledge: Banking & Financial, News & Media, Telecom Service Provider
 				</li>
 				<li class="list-group-item-heading">
-					Experience in working with Node.js with TypeScript (Client Server Architecture)
+					Having more than five years of extensive experience in architecture, design and development of developing Web application and Mobile application using latest Technologies
 				</li>
 				<li class="list-group-item-heading">
-					Experience in working with AngularJs
+					Highly capable professional with ability to work on short and long-term projects individually or within a team
 				</li>
 				<li class="list-group-item-heading">
-					Experience in working with Model View Controller (MVC) architecture based web developments using
-	                Laravel MVC and JavaScript Frameworks.
+					Able to pick up techniques quickly and delivering solutions under pressure, and consult with clients to understand their business needs, gather requirements and translate these into useable features and functionality
 				</li>
 				<li class="list-group-item-heading">
-					Proficient in working with Eloquent ORM Laravel and Composer and Application Servers such as Nginx, Apache and HTTP server in Node.js.
+					Experience in working with Model View Controller (MVC), Client-Server architectures-based web developments and JavaScript Frameworks.
 				</li>
 				<li class="list-group-item-heading">
-					Process Expertise in Object-Oriented Analysis/Design and PHP Development, skilled at progressing from problem statement to well documented designs.
+					Process Expertise in Object-Oriented Analysis/Design, skilled at progressing from problem statement to well documented designs.
 				</li>
 				<li class="list-group-item-heading">
 					Experience in Agile Development (Scrum). Good Team player and also have ability to work independently.
 				</li>
 				<li class="list-group-item-heading">
 					Expert in advanced development methodologies, tools and processes contributing to the design and rollout of cutting-edge software applications, writing efficient and sophisticated code.
+				</li>
+				<li class="list-group-item-heading">
+					Specialties in Laravel (PHP), Node.js (TypeScript), VICI dial (Asterisk), Angular.js, Ionic, Nginx, Maria DB(MySQL), Redis, Elastic search, Logstash, Memcached, Amazon Web Services (AWS), etc
 				</li>
 			</ul>
 		</div>
@@ -94,7 +94,7 @@
 						<strong>Web Technologies:</strong>
 					</span>
 					<span class="list-group-item-text">
-						Bull queue(redis), Bootstrap, Semantic UI, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.IO, Emojione, CKEditor.js, FullCalendar.js, Dropzone.js, Sortable.js, Clipboard.js, Lightgallery.js, Lightbox.js, colResizable.js, Chart.js, Moment.js and Meteor.js
+						Bootstrap, Semantic ui, HTML, CSS, JavaScript, jQuery, Ajax, XML, DOM, JSON, Angularjs, Node.js, Socket.io, Bull queue(redis)
 					</span>
 				</li>
 				<li class="">
@@ -110,7 +110,7 @@
 						<strong>Communication protocols:</strong>
 					</span>
 					<span class="list-group-item-text">
-						WebRTC, SIP, TrixBox
+						VICI dial (Asterisk), WebRTC, SIP, TrixBox
 					</span>
 				</li>
 				<li class="">
@@ -190,7 +190,7 @@
 						<strong>Others:</strong>
 					</span>
 					<span class="list-group-item-text">
-						AWS (EC2, S3, Route 53, RDS, SQS), JIRA, Supervisor, Cron, Webwin, SSH, Putty, Cacti, SoapUI, OpenCV
+						AWS (EC2, S3, Route 53, RDS, SQS), JIRA, Supervisor, Cron, Webwin, SSH, Putty, Cacti, SoapUI, OpenCV, logstash, Jira
 					</span>
 				</li>
 			</ul>
@@ -202,7 +202,7 @@
 			<h3>INDUSTRIAL EXPERIENCE</h3>
 		</div>
 		<div class="col-md-9">
-	 		<p class="period">JUNE 2017</p>
+	 		<p class="period">JUNE 2017 - PRESENT</p>
 			<h4>Software Engineer, Collectius (CMS) pte Ltd</h4>
 			<p><strong>Responsibilities:</strong></p>
 			<ul class="list-group">
@@ -252,7 +252,7 @@
 			<h4 class="cv-item">Icollect SiteVisit Mobile App</h4>
 
 			<p>			
-				AAim of project is updating debtor remark to Domain Management System
+				Aim of project is updating debtor remark to Domain Management System
 Features :- Adding Remark and Contact Uploading images and audio recording to Domain Management System
 
 			</p>
