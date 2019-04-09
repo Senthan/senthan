@@ -18,7 +18,7 @@
 	            <br><span class="hidden-tablet"><strong>Web: </strong> <a href="http://senthaneng.com">http://senthaneng.com</a></span>
 	            <br><span class="hidden-tablet"><strong>Phone: </strong>(+65) 9144 1981.</span>
 	             <br><span class="hidden-tablet"><strong>Expected Salary: </strong>Negotiable.</span>
-	             <br><span class="hidden-tablet"><strong>Availability: </strong>Immediately.</span>
+	             <br><span class="hidden-tablet"><strong>Availability: </strong>1 Month.</span>
 	        </p>
 	    </div>
 	</div>
@@ -158,7 +158,7 @@
 						<strong>IDE:</strong>
 					</span>
 					<span class="list-group-item-text">
-						VVisual studio code, PhpStorm, Eclipse, Sublime, RStudio and Android Studio.
+						Visual studio code, PhpStorm, Eclipse, Sublime, RStudio and Android Studio.
 					</span>
 				</li>
 				<li class="">
