@@ -272,7 +272,7 @@
         	<div class="col-md-9">
 
         		<p class="period">JUNE 2017</p>
-				<h4>Software Engineer, Collectius (CMS) pte Ltd</h4>
+				<h4>Full Stack Developer, Collectius (CMS) pte Ltd</h4>
 				<p><strong>Responsibilities:</strong></p>
 				<ul class="list-group">
 					<li class="list-group-item-heading">
@@ -372,7 +372,7 @@
 
 
         		<p class="period">February 2015 – April 2017</p>
-        		<h4>Software Engineer, jEyLaBs (Ceymplon) Pty Ltd</h4>
+        		<h4>Full Stack Developer, jEyLaBs (Ceymplon) Pty Ltd</h4>
         		<p><strong>Responsibilities:</strong></p>
         		<ul class="list-group">
         			<li class="list-group-item-heading">
