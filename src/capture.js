@@ -10,12 +10,12 @@ page.viewportSize = {
 };
 
 page.paperSize = {
-	format: 'A2',
+	format: 'A4',
 	orientation: 'portrait',
 	margin: '1cm'
 }
 
 window.setTimeout(function () {
-	page.render(args[1]);
+	page.render(args[2]);
 	phantom.exit();
 }, 1000);
